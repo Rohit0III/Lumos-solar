@@ -99,7 +99,7 @@ export default function LumosSolarWebsite() {
           }}
         >
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/solar.jpg"
             alt="Futuristic solar installation"
             fill
             className="object-cover opacity-30"
@@ -157,12 +157,12 @@ export default function LumosSolarWebsite() {
             
             {/* 3D Solar Panel Visualization */}
             <div className="relative">
-              <div className="relative w-full h-96 lg:h-[500px]">
+              <div className="relative w-full h-96 lg:h-[500px] ">
                 <Image
-                  src="/placeholder.svg?height=500&width=600"
+                  src="/solar-2.jpg"
                   alt="3D Solar System"
                   fill
-                  className="object-contain drop-shadow-2xl"
+                  className="object-contain drop-shadow-2xl "
                   priority
                 />
                 
@@ -235,19 +235,19 @@ export default function LumosSolarWebsite() {
               {
                 title: "Install First, Pay Later",
                 description: "Revolutionary approach - we install your complete solar system before you make any payment. Zero upfront costs!",
-                image: "/placeholder.svg?height=200&width=200",
+                image: "/install.png",
                 gradient: "from-green-500 to-teal-500"
               },
               {
                 title: "Flexible Payment Plans",
                 description: "Choose from 12, 18, or 24-month installment plans designed to fit your budget perfectly.",
-                image: "/placeholder.svg?height=200&width=200",
+                image: "/flexibleww.jpg",
                 gradient: "from-blue-500 to-purple-500"
               },
               {
                 title: "Complete Solar Ecosystem",
                 description: "From consultation to maintenance, we provide end-to-end solar solutions with cutting-edge technology.",
-                image: "/placeholder.svg?height=200&width=200",
+                image: "/solar eco sys.jpg",
                 gradient: "from-yellow-500 to-orange-500"
               }
             ].map((feature, index) => (
@@ -310,28 +310,28 @@ export default function LumosSolarWebsite() {
                 icon: Tv, 
                 title: "50W Smart TVs", 
                 description: "Crystal clear entertainment powered by the sun",
-                image: "/placeholder.svg?height=150&width=150",
+                image: "/solartv.jpeg",
                 color: "from-blue-500 to-cyan-500"
               },
               { 
                 icon: Fan, 
                 title: "DC Ceiling Fans", 
                 description: "Whisper-quiet cooling with maximum efficiency",
-                image: "/placeholder.svg?height=150&width=150",
+                image: "/dc celling.jpg",
                 color: "from-green-500 to-emerald-500"
               },
               { 
                 icon: Laptop, 
                 title: "Laptop Charging", 
                 description: "Uninterrupted productivity with solar power",
-                image: "/placeholder.svg?height=150&width=150",
+                image: "/laptop charging.webp",
                 color: "from-purple-500 to-pink-500"
               },
               { 
                 icon: Smartphone, 
                 title: "Phone Charging", 
                 description: "Stay connected with renewable energy",
-                image: "/placeholder.svg?height=150&width=150",
+                image: "/mobile charging.jpg",
                 color: "from-orange-500 to-red-500"
               }
             ].map((product, index) => (
@@ -477,7 +477,7 @@ export default function LumosSolarWebsite() {
               {
                 name: "Sarah Johnson",
                 role: "Homeowner",
-                image: "/placeholder.svg?height=80&width=80",
+                image: "/testimonialdd.avif",
                 quote: "Lumos Solar transformed my energy bills! The install-first approach made it so easy to get started.",
                 rating: 5,
                 savings: "$150/month"
@@ -485,7 +485,7 @@ export default function LumosSolarWebsite() {
               {
                 name: "Michael Chen",
                 role: "Small Business Owner",
-                image: "/placeholder.svg?height=80&width=80",
+                image: "/testimonialdd.avif",
                 quote: "The flexible payment plan was perfect for my budget. Professional service from start to finish!",
                 rating: 5,
                 savings: "$300/month"
@@ -493,7 +493,7 @@ export default function LumosSolarWebsite() {
               {
                 name: "Emma Davis",
                 role: "Tech Professional",
-                image: "/placeholder.svg?height=80&width=80",
+                image: "/testimonialdd.avif",
                 quote: "My entire home office runs on solar now. Best investment I've ever made for my productivity!",
                 rating: 5,
                 savings: "$200/month"
@@ -562,22 +562,22 @@ export default function LumosSolarWebsite() {
               {
                 icon: Phone,
                 title: "Call Us",
-                info: "+1 (555) 123-4567",
+                info: "08033956612",
                 subtitle: "Mon-Fri 8AM-6PM",
                 gradient: "from-blue-500 to-purple-500"
               },
               {
                 icon: Mail,
                 title: "Email Us",
-                info: "info@lumossolar.com",
+                info: "adollyboy@gmail.com",
                 subtitle: "24/7 Support",
                 gradient: "from-green-500 to-teal-500"
               },
               {
                 icon: MapPin,
                 title: "Visit Us",
-                info: "123 Solar Street",
-                subtitle: "Energy City, EC 12345",
+                info: "Nigeria",
+                subtitle: "Sango Ota ",
                 gradient: "from-yellow-500 to-orange-500"
               }
             ].map((contact, index) => (
